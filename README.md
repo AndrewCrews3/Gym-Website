@@ -1,4 +1,4 @@
-#Front-End Developing A Functional and Responsive Gym-Website
+# Front-End Developing A Functional and Responsive Gym-Website
 
 ## Stack
 <ul style={{listStyle: 'none'}}>
