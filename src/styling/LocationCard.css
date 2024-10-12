@@ -1,0 +1,195 @@
+
+.background {
+    position: relative;
+    background-color: hsl(0, 0%, 88%);
+    overflow: auto;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 8vh;
+
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 360px;
+    height: 320px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: .9rem;
+    box-shadow: 0px 1px 10px rgba(48, 48, 48, 0.587);
+    margin-bottom: 2rem;;
+}
+
+.location {
+    font-size: 2.5rem;
+}
+
+.miles {
+    font-size: 1.5rem;
+}
+
+.address {
+    font-size: 1rem;
+}
+
+.join-gym {
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    width: 200px;
+    height: 60px;
+    border: none;
+    background-color: rgb(255, 217, 0);
+    color: black;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgba(65, 65, 65, 0.629);
+
+}
+
+.location-text .location-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 3.5em;
+    left: 0;
+    right: 0;
+    margin-top: 8vh;
+}
+
+.location-paragraph {
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 16vh;
+    font-size: 2ch;
+}
+
+
+
+@media  (max-width: 900px) {
+    .card-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+.location-header {
+    top: 7vh;
+    font-size: 2.9rem;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.location-paragraph {
+    top: 17vh;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+}
+
+@media  (max-width: 737px) {
+
+    .location-header {
+        top: 8vh;
+        font-size: 2.9rem;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    
+    }
+    
+    .location-paragraph {
+        top: 23vh;
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+}
+
+@media  (max-width: 560px) {
+
+    .location-header {
+        top: 5vh;
+        font-size: 2.8rem;
+        text-align: center;
+    
+    }
+    
+    .location-paragraph {
+        top: 16vhvh;
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .cards {
+        top: 35vh;
+
+  
+}
+
+
+@media  (max-width: 495px) {
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 85%;
+        height: 320px;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: .9rem;
+        box-shadow: 0px 1px 10px rgba(48, 48, 48, 0.587);
+        margin-bottom: 2rem;
+
+}
+
+
+    .location-header {
+        top: 7vh;
+        font-size: 2.8rem;
+        text-align: center;
+
+    }
+
+    .location-paragraph {
+        top: 30vh;
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+
+    }
+
+    .cards {
+        top: 40vh;
+
+
+    }
+
+}
+
+}
