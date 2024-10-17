@@ -1,0 +1,107 @@
+.weight-room {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    background-color: gold;
+}
+
+.basketball {
+    margin-top: 0.6rem;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.activity-image .activity-photo {
+    clip-path: circle(85.2% at 0 50%);
+    width: 60vw;
+    height: 100%;
+
+
+}
+
+.activity-image {
+}
+
+.activity-text {
+    text-align: center;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-left: -8rem;
+    z-index: 1;
+
+}
+
+.activity-text .sport-header {
+    font-size: 4rem;
+
+
+}
+
+.activity-text .sport-paragraph {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+
+
+@media  (max-width: 1079px) {
+
+    .weight-room {
+        flex-direction: row;
+        background-image: url('/Users/andrewcrews/Desktop/React-Portfolio/andrew-portfolio/src/assets/dumbbell.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.43);
+    }
+
+    .basketball {
+        flex-direction: row;
+        background-image: url('/Users/andrewcrews/Desktop/React-Portfolio/andrew-portfolio/src/assets/basketballcourt.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.43);
+
+    }
+    
+    .activity-image .activity-photo {
+
+    }
+    
+    .activity-image {
+        display: none;
+
+    }
+    
+    .activity-text {
+        text-align: center;
+        color: white;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        text-shadow: 0px 0px 4px black;
+    }
+    
+    .activity-text .sport-header {
+        font-size: 4rem;
+    
+    
+    }
+    
+    .activity-text .sport-paragraph {
+        font-size: 1.7rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    
+    }
+
+
+}
